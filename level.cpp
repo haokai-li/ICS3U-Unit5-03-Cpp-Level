@@ -63,6 +63,5 @@ main() {
         std::cout << "Your score percentage is "
         << checkLevel << "%" << std::endl;
     }
-
     std::cout << "\nDone." << std::endl;
 }
