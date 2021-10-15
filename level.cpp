@@ -57,7 +57,12 @@ main() {
     checkLevel = CheckLevel(userString);
 
     // output
-    std::cout << "Your score percentage is " << checkLevel << "%" << std::endl;
+    if (checkLevel == -1) {
+        std::cout << "This is not a level." << std::endl;
+    } else {
+        std::cout << "Your score percentage is "
+        << checkLevel << "%" << std::endl;
+    }
 
     std::cout << "\nDone." << std::endl;
 }
